@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 09299052a69ab8b4084408bf6e0d4593
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149392
+  packageName: LowPoly Police Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/LowPoly Police Vehicles/Animations/PoliceCar-fbx.controller
+  uploadId: 317648
