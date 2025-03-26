@@ -1,14 +1,14 @@
-using TMPro;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 
 public class WinCondition : MonoBehaviour
 {
     public int pontuacao = 0;
     
-   
 
-  
+    
 
 
 
@@ -16,18 +16,22 @@ public class WinCondition : MonoBehaviour
     void Start()
     {
         
+
     }
 
     // Update is called once per frame
-    
-
     void Update()
     {
-        if(pontuacao == 3) {
-            SceneManager.LoadScene("Vitória");
+
+
+        if (pontuacao >= 3)
+        {
+           SceneManager.LoadScene("Vitória");
+            
         }
-        
     }
 
-   
+    
+
+    
 }
