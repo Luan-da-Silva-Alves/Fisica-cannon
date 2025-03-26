@@ -424,6 +424,7 @@
 "Assets/Cannon_Assets/Finished_Scene/CrashSound.cs"
 "Assets/Cannon_Assets/Finished_Scene/LaunchProjectileFinished.cs"
 "Assets/Cannon_Assets/Finished_Scene/Launch_with_Audio.cs"
+"Assets/menuPrincipal.cs"
 "Assets/Scripts/Alvos/Esquivante.cs"
 "Assets/Scripts/Cannon/BallController.cs"
 "Assets/Scripts/Cannon/CannonController.cs"
