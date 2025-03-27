@@ -2,19 +2,19 @@ using UnityEngine;
 
 public class Esquivante : MonoBehaviour
 {
-    [SerializeField] private Transform[] waypoints; // Array de pontos de patrulha
-    [SerializeField] private float speed = 2f;      // Velocidade do patrulhamento
-    private int targetPoint = 0;                    // Ponto alvo atual
+    [SerializeField] private Transform[] waypoints; 
+    [SerializeField] private float speed = 2f;     
+    private int targetPoint = 0;                   
 
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
-        targetPoint = 0; // Define o ponto alvo como zero
+        targetPoint = 0; 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (transform.position == waypoints[targetPoint].position)
@@ -23,7 +23,7 @@ public class Esquivante : MonoBehaviour
             
         }
 
-        // Atualiza a posição do alvo
+       
         transform.position = Vector3.MoveTowards(transform.position, waypoints[targetPoint].position, speed * Time.deltaTime);
     }
 

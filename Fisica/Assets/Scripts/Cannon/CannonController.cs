@@ -28,7 +28,7 @@ public class CannonController : MonoBehaviour
 
             transform.localRotation = Quaternion.Euler(currentAngle, 0, 0); //Aplica a rotacao
 
-            Debug.Log($"Canhao inclinado para {currentAngle} graus"); //Log para depuracao
+           
 
 
 
